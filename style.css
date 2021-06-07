@@ -5,7 +5,7 @@ body {
 
 
 .container {
-	background-color: #1f4787;
+	background-color: #000;
 }
 
 h1 {
@@ -46,8 +46,15 @@ h2{
 	display: inline-block;
 }
 
+header{
+	justify-content: center;
+	
+}
+
 ul{
-	margin: 20px;
+
+	display: flex;
+	align-items: center;
 }
 
 li{
@@ -68,7 +75,7 @@ p{
 	padding: 15px;
 	max-width: 500px;
 	text-align: justify;
-	background-color: #0f2169;
+	background-color: #060e2e;
 	color: #fff;
 	border-radius: 7px;
 	border: solid #2d4cc4;
@@ -93,7 +100,11 @@ p{
 	p{
 		position: relative;
 		display:inline-flex;
-		max-width: 800px;
+		max-width: 750px;
+		margin-left: 50px;
+	}
+	ul{
+		display: inline-block;
 	}
 }
 
