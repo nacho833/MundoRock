@@ -36,9 +36,6 @@ h2{
 	box-shadow: 0 0 16px blue;
 }
 
-.logo:active{
-
-}
 
 .foto {
 	width: 800px;
@@ -52,7 +49,7 @@ header{
 }
 
 ul{
-
+	justify-content: center;
 	display: flex;
 	align-items: center;
 }
@@ -105,6 +102,7 @@ p{
 	}
 	ul{
 		display: inline-block;
+		justify-content: center;
 	}
 }
 
